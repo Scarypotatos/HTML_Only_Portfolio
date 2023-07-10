@@ -1,0 +1,194 @@
+/*Start of reset CSS*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Reset CSS */
+
+
+/*Setting the font family for my whole website*/
+/*When styling the font family using custom fonts, use these:
+    font-family: 'Source Sans Pro',sans-serif;  for title
+    font-family: 'Open Sans', sans-serif; for content
+*/
+
+/*setting the color scheme and general alignment of the webpage*/
+body {
+    text-align: center; 
+    background-color: #85dcba;
+    
+}
+
+/*setting the font family for the whole website*/
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Settings for anchor tags*/
+/*To have a colour contrast when hovering above the link*/
+a:hover {
+    color: inherit;
+}
+a {
+    text-decoration: none;
+}
+.nav_button:hover {
+    color: #85dcba;
+}
+
+
+/*To set relative font sizes for scalability*/
+h1, .nav_button {
+    font-size: 2em;
+   
+}
+h2 {
+    font-size: 1.5em;
+}
+img {
+    max-height: 2em;
+}
+.top {
+    font-size: 4em;
+}
+
+/*To hide the list of extra stuff before I know how to make a preview*/
+ul {
+    list-style-type: none;
+}
+
+/*Hiding stuff for styling purposes*/
+.hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/*setting the looks of the site buttons*/
+.button {
+    background-color: #BA85DC;
+    border: 0;
+    border-radius: 100%;
+    font-size: 1em;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+.button:hover {
+    background-color: #956ab0;
+}
+
+/*Moving around the title and the nav bar*/
+.menu {
+    background-color: #DCBA85;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+}
+
+/*Decorating and shaping the navigation bar*/
+.nav_list {
+    list-style-type: none; 
+}
+.nav_item {
+    display: inline-block;
+    padding: 1em 3em 1em 3em;
+}
+
+/*Styling the philosophy section as their own boxes*/
+.header_content {
+    max-width: 51%;
+    margin: auto;
+    text-align: justify;
+    padding: 0.3em 0 1em 0;
+}
+.philo_section {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.philo_subsection {
+    padding-top: 1em;
+    max-width: 17%;
+    overflow: auto;
+}
+.philo_content {
+    padding: 1em 2em 1em 2em;
+    text-align: justify;
+}
+
+/* For any lists about clothing on the website */
+.clothing_list {
+    display: flex;
+    flex-flow: row wrap;  
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.clothing_item {
+    padding: 1em;
+}
+
+/*Positioning each of the articles*/
+.article_heading {
+    padding: 1em 0 0.5em;
+}
+
+/*Styling the page footer*/
+.page_footer {
+    background-color: #DCBA85;
+}
+

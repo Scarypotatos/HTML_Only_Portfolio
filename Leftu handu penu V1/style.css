@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+title {
+  display: none;
+}
+
+html {
+  font-family: "Montserrat" , serif;
+  background-color: #00FF00;
+
+}
+h2 {
+  text-align: center;
+}
+
+
+.article {
+}
+
+.top {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/05/81/6456279a0080dd1.jpg);
+  color: White;
+}
+
+.FountainPen {
+  height: 350px;
+  width: 280px;
+}
+
+.Search {
+  position: fixed;
+  background-color: #00FF00;
+  border-width: 100px;
+}
+
+.Sidebar {
+  border-style: solid;
+  text-align: center;
+}
+
+.Reviews {
+  border-style: solid;
+}
+.P51 {
+  background-color: rgb(0, 128, 0);
+}
+
+.FC66{
+  background-color: rgb(7, 243, 229);
+}
+
+.Crystal {
+  background-color: rgb(232, 234, 13);
+}
+
+.Vista {
+  background-color: rgb(256, 256, 256);
+}
+
+.Singularity {
+  background-color: rgb(175, 61, 189);
+  color: rgb(256,256, 256);
+}
+
+.SailorPG2S {
+  background-color: rgb(0, 0, 0);
+  color: rgb(256,256, 256);
+}
+
+.Kakuno {
+  background-color: rgb(256, 256, 256);
+}
+
+.Preppy {
+  background-color: rgb(88, 152, 228);
+}
+
+.BBS308 {
+  background-color: rgb(128, 128, 128);
+}
